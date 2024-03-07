@@ -1,0 +1,426 @@
+﻿<html lang="en" class="js-focus-visible">
+<head>
+
+
+
+
+
+
+
+
+
+
+
+<title>Your Videos On GoAnimate For Schools</title>
+
+
+
+<meta name="description" content="The Character Creator from GoAnimate - Create a character online with GoAnimate.">
+
+<meta property="og:site_name" content="GoAnimate For Schools">
+
+
+
+
+
+<link rel="stylesheet" href="/html/css/common_combined.css.gz.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700">
+
+
+
+
+<script src="/html/js/common_combined.js.gz.js"></script>
+
+
+
+
+
+
+
+</head>
+<body class="page-action-character_creator" style="">
+<nav class="navbar site-nav" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            <a class="navbar-brand" href="/html/public_index.html" title="GoAnimate For Schools">
+                <img src="/html/img/logo.png" alt="GoAnimate For Schools">
+            </a>
+        </div>
+
+        <ul class="nav site-nav-alert-nav hidden-xs">
+            <li>
+                <a href="/messages" title="Messages"><span class="glyphicon glyphicon-envelope"></span><span class="count"></span></a>
+            </li>
+            <li>
+                <a href="/notifications" title="Notifications"><span class="glyphicon glyphicon-bell"></span><span class="count"></span></a>
+            </li>
+        </ul>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav navbar-right">
+			<li>
+			<a onclick="document.getElementById('file').click()">Upload a video xml</a>
+			</li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" href="#" data-toggle="dropdown">Your Account <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/you">Dashboard</a></li>
+                        <li><a href="/dashboard/videos">Your Videos</a></li>
+                        <li class="divider"></li>
+                        <li><a href="/account">Account Settings</a></li>
+                        <li><a href="/profile">Your Profile</a></li>
+                        <li class="divider"></li>
+                        <li><a class="logout-link" href="/logoff">Logout</a></li>
+                    </ul>
+                </li><li class="dropdown">
+                    <a class="dropdown-toggle" href="#" data-toggle="dropdown">Explore <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/students">Students</a></li>
+                        <li><a href="/teachers">Teachers</a></li>
+                        <li><a href="/dashboard/videos">Videos</a></li>
+                        <li class="divider"></li>
+                        <li><a href="https://discord.gg/bb8xXaWPv3">Educator Experiences</a></li>
+                        <li><a href="/public_faq">FAQ</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="hidden-sm hidden-md hidden-lg" href="/c/create">Make a Video</a>
+                    <span class="site-nav-btn hidden-xs"><a class="btn btn-green" href="/c/create">Make a Video</a></span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+            </div>
+        </div>
+
+<div class="container">
+    <div class="page-header">
+        <h1 class="h2">
+            <ol class="breadcrumb video-breadcrumb">
+                <li class="base" data-folder-id="" data-category="all" data-page="1" data-sort-by="lastmod" data-status="" data-keyword="" data-folder-name="">Your Videos</li>
+            </ol>
+        </h1>
+    </div>
+
+    <div class="row" id="video-listing">
+        <div class="col-md-4 col-md-push-8">
+            <div id="videos-nav" class="list-group folder-list folder-access">
+                <div class="list-group-item folder-item active droppable" data-folder-id="" data-category="all" data-page="1" data-sort-by="lastmod" data-status="" data-keyword="" data-folder-name="">
+                    <span class="caret-container">
+                        <span class="caret"></span>
+                    </span>
+                    <span class="title folder-name">Your Videos</span>
+                    (<span class="video-count count-all">0</span>)
+                </div>
+
+                <div id="videos-folders-nav" class="list-group-item sub-folder-list"></div>
+
+                <div class="list-group-item folder-item" style="display:none" data-page="1" data-status="" data-category="folders/sharedwith" data-sort-by="lastmod">
+                    <span class="title folder-name">Shared with you</span>
+                    (<span class="video-count count-sharedwith">0</span>)
+                </div>
+
+                <div class="list-group-item folder-item" data-category="trash" data-sort-by="lastmod">
+                    <span class="title folder-name">Trash</span>
+                    (<span class="video-count count-trash">0</span>)
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-8 col-md-pull-4">
+            <input type="hidden" name="ct" value="ThMfVqmsc0PkY77_F89VKwEPLPGc+yNUzxIWdDTFTr0DocRazMTCZrMoQCdzPC7PNyDu0yWG4x1yhvo1DuT_mqi_B_AV9_sAoIAUAgJar5gSzFMTZmLwOlbiTTCf9O+_XBIC9lfmSWc8YgkgNGCVqD8nQ1oShBM3y+Nl_QR2feD6SxddUOKSO_KAW7atTZeJRyTjeXnFVV1JQFK6bBQ9OJYCi4sR349gOorc2EFQ==">
+
+<div class="grid video-listing-grid hide-folders folder-access" id="video-listing-grid">
+
+    <div class="grid-viewport video-listing" id="videos">
+        <table class="table table-hover table-generic">
+            
+		<thead>
+			<tr>
+				<td></td>
+				<td>Video Title</td>
+				<td>Last Modified</td>
+				<td></td>
+			</tr>
+		</thead>
+		<tbody></tbody>
+		<tfoot>
+			<tr>
+				<td colspan="127"><a id="load_more" href="javascript:;">Load more of your videos...</a></td>
+			</tr>
+		</tfoot>
+	
+        </table>
+    </div>
+
+
+</div>
+
+
+        </div>
+
+    </div>
+
+</div>
+
+<script type="text/javascript" charset="utf-8">
+var _kiq = _kiq || [];
+_kiq.push(['identify', "ynnbrxqnecaymhdirl@awdrt.org"]);
+</script>
+</div>
+
+<footer class="site-footer hidden-print">
+    <div class="container">
+        <div class="row site-footer-nav">
+            <div class="col-sm-3">
+                <div class="site-footer-nav-col">
+                    <h5>About GoAnimate</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="https://discord.gg/bb8xXaWPv3">Who We Are</a></li>
+                        <li><a href="https://discord.gg/bb8xXaWPv3">Contact Us</a></li>
+                        <li><a href="https://discord.gg/bb8xXaWPv3">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="site-footer-nav-col">
+                    <h5>GoAnimate Solutions</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="https://itsredacted.000webhostapp.com/" target="_blank">GoAnimate for Schools</a></li>
+                        <li class="hidden-xs">&nbsp;</li>
+                        <li class="hidden-xs">&nbsp;</li>
+                        <li class="hidden-xs">&nbsp;</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="site-footer-nav-col">
+                    <h5>Getting Help</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="https://discord.gg/bb8xXaWPv3">Help Center</a></li>
+                        <li class="hidden-xs">&nbsp;</li>
+                        <li class="hidden-xs">&nbsp;</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <div class="row site-footer-copyright">
+            <div class="col-sm-6">
+                <div class="site-footer-socials-container">
+                    Follow us on:
+                    <ul class="site-footer-socials clearfix">
+                        <li><a class="youtube" href="https://www.youtube.com/channel/UCiEYUXgWlGQqYfxyMhYGWRQ">YouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="pull-right">
+                    <img src="/html/img/logo_amazon.png" alt="AWS Partner Network">
+                    &nbsp;&nbsp;&nbsp;
+                    GoAnimate © 2024
+                </div>
+            </div>
+        </div>
+
+    </div>
+</footer>
+
+
+<div id="studio_container" style="display: none;">
+    <div id="studio_holder"><!-- Full Screen Studio -->
+        <div style="top: 50%; position: relative;">
+            You can't use GoAnimate because Flash might be disabled. <a href="https://web.archive.org/web/20181218221022/https://get.adobe.com/flashplayer/">Enable Flash</a>.
+        </div>
+    </div>
+</div>
+
+<form enctype="multipart/form-data" action="/ajax/videoUpload/" method="post" style="display: none;">
+		<input id="file" type="file" onchange="this.form.submit()" name="import" accept=".xml">
+	</form>
+
+
+<script>
+    
+		
+		var json;
+		var tbody = document.getElementsByTagName('tbody')[0];
+		var loadMore = document.getElementById('load_more');
+		const listReq = new XMLHttpRequest();
+		listReq.open('GET', '/movieList');
+		listReq.send();
+
+		var C = 0;
+		function loadRows() {
+			let c = C; C += 69;
+			for (; c < C; c++) {
+				if (c > json.length - 1) {
+					loadMore.remove();
+					break;
+				}
+
+				const tbl = json[c];
+				const date = tbl.date.substr(0, 10) + ' ' + tbl.date.substr(11);
+				tbody.insertAdjacentHTML('beforeend',
+					'<tr><td><img src="/movie_thumbs/' + tbl.id + '.png"></td><td><div>' + tbl.title.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;") + '</div><div>' + tbl.durationString + '</div></div></td><td><span>' + date + '</span></td><td><a href="javascript:;" onclick="popup(\'' + tbl.id + '\')"></a><a href="/go_full?movieId=' + tbl.id + '"></a><a href="/movies/' + tbl.id + '.xml" download="' + tbl.title + '"></a></td></tr>');
+			}
+		}
+
+		loadMore.onclick = loadRows;
+		listReq.onreadystatechange = function (e) {
+			if (listReq.readyState != 4) return;
+			json = JSON.parse(listReq.responseText);
+			loadRows();
+		}
+
+		function popup(id) {
+			window.open('/player?movieId=' + id);
+		}
+	
+	
+</script>
+<style>
+    table {
+			width: 100%;
+			max-width: 100%;
+			margin-bottom: 0px;
+			margin-right: auto;
+			margin-left: auto;
+			margin-top: 0px;
+			background-color: transparent;
+			border-collapse: collapse;
+			border-spacing: 0;
+			font-size: 14px;
+		}
+
+		@media(min-width: 768px) {
+			table {
+				width: 750px;
+			}
+		}
+
+		@media(min-width: 992px) {
+			table {
+				width: 970px;
+			}
+		}
+
+		@media(min-width: 400px) {
+			table {
+				width: 750px;
+			}
+		}
+
+		thead {
+			font-weight: 200;
+		}
+
+		td {
+			padding: 8px;
+			vertical-align: middle;
+			line-height: 1.42857143;
+		}
+
+		thead {
+			border-bottom: 2px solid #ddd;
+			border-top: 1px solid #ddd;
+		}
+
+		tbody>tr {
+			border-top: 0;
+			border-bottom: 1px solid #ddd;
+		}
+
+		tbody>tr:hover {
+			background-color: #f5f5f5;
+		}
+
+		tr>:nth-child(1) {
+			width: 64px;
+		}
+
+		tr>:nth-child(1)>img {
+			height: 36px;
+		}
+
+		tr>:nth-child(1) {
+			word-break: break-word;
+		}
+
+		tr>:nth-child(2) {
+			color: #999;
+		}
+
+		tr>:nth-child(3) {
+			width: 250px;
+		}
+
+		tr>:nth-child(3)>* {
+			display: inline-block;
+			text-align: center;
+			font-size: 12px;
+			width: 8.5px;
+		}
+
+		tr>:nth-child(4) {
+			font-family: 'GlyphiconsRegular';
+			text-decoration: none;
+			padding-top: 5px;
+			font-size: 14px;
+			width: 80px;
+		}
+
+		tr>:nth-child(4)>a {
+			display: inline-block;
+			text-decoration: none;
+			padding-right: 10px;
+			color: #474747;
+		}
+
+		tr>:nth-child(4)>a:hover {
+			color: #2d9e88;
+		}
+
+		tr>:nth-child(4)>:nth-child(1)::before {
+			content: '\E174';
+		}
+
+		tr>:nth-child(4)>:nth-child(2)::before {
+			content: '\E235';
+		}
+
+		tr>:nth-child(4)>:nth-child(3)::before {
+			content: '\E182';
+		}
+
+		tfoot>tr>td {
+			text-align: center;
+			border: none;
+		}
+
+		tfoot>tr>td>a {
+			text-decoration: none;
+			color: #474747;
+			font-size: 14px;
+		}
+		@font-face {
+			font-family: 'GlyphiconsRegular';
+			src: url('/html/fonts/glyphicons-regular.woff') format('woff');
+			font-weight: normal;
+			font-style: normal;
+		}
+
+</style>
+</body
+></html>
